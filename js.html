@@ -1,0 +1,239 @@
+<html>
+<head>
+    <title>All java script</title>
+</head>
+<body>
+    <h1 style="text-align: center;color: rgb(40, 233, 40);margin-top: 250px;font-size: 150px;">IAS Ankit</h1>
+    <script>
+      // .......function..........
+
+        function ankit (x,y){
+            console.log(x*y)
+            
+        } 
+        ankit(10,6)
+        ankit("ankit", "maurya")
+
+        // .........true, false function......
+
+        function checker(x,y){
+            console.log( x < y)
+        }
+    checker(5,6)
+
+    // ..........condition.........
+
+    function evenNumberChecker(x,y) {
+        if (x < y) {
+          console.log(x + " "+'is small'+", "+ y+" is big");
+        } 
+        else if (x==y) {
+          console.log(x,y+" is equal");
+        }  
+          else { 
+          console.log(x +" "+'is big'+", "+ y+" is small");
+        }  
+        
+      }
+      evenNumberChecker(8,8);
+
+    // .........Time checker.......
+
+      function r(time) {
+        if (time < 12) {
+          console.log("Good morning");
+        } 
+        else if(time < 17 && 12 <= time){
+          console.log("Good after noon");
+        }
+        else if(time < 20 && time >= 17){
+          console.log("Good evening");
+        }
+         else {
+          console.log("Good Night");
+        }    
+        
+      }
+      r(12)
+
+      // ..........only loop condition..........
+
+     for(let i=1; i <= 10 ; i++){
+      console.log (i*2)
+     }
+      
+    //  ......function and loop.....
+    function tab (a){
+      for(let i=1; i <= 10 ; i++){
+      console.log (i*a)
+     }
+    }
+    tab (6)
+
+    // .....function and loop even number.......
+    function sum(x){
+      for(let i=1; i <= x ; i++){
+        if (i%2 ==0 ) {
+        console.log(i);
+      }
+      }
+    }
+    sum(10)
+    
+    // ......function and loop odd number first method........
+    function odd(x){
+      for(let i=1; i <= x ; i++){
+        if (i%2 ==1 ) {
+        console.log(i);
+      }
+      }
+    }
+    odd (20)
+
+     // ......function and loop odd number second method......
+     function odd2(x){
+      for(let i=1; i <= x ; i++){
+        if (i%2 !=0 ) {
+        console.log(i);
+      }
+      }
+    }
+    odd2 (8)
+
+    // ......Febonacci series........
+    let num1=0;
+    let num2=1;
+   for (let i=0;i < 10;i ++){
+    newNum = num1 + num2;
+    console.log(newNum);
+    num1 = num2;
+    num2=newNum;
+   }
+
+  //  ........only factorial........
+         let ans = 1;
+        for (let i = 8; i > 0; i--) {
+          console.log(i);
+          ans = ans * i;
+        }
+        console.log(ans);
+
+  // ....function factorial....
+
+  function factorial(num) {
+        let ans = 1;
+        for (let i = num; i > 0; i--) {
+          console.log(i);
+          ans = ans * i;
+        }
+        console.log(ans);
+      }
+      factorial(6);
+    
+      // .........Note checker.......
+   
+            const fivehrs = 500;
+            const twohrs = 200;
+            const onehrs = 100;
+            const fiftyrs = 50;
+            const twentyrs = 20;
+            const tenrs = 10;
+            const fivers = 5;
+            const twors = 2;
+            const oners = 1;
+            const totalrs = 8888;
+            
+            const fhn = Math.floor(totalrs/fivehrs);
+            console.log(fhn)
+
+            const t = totalrs-fhn*fivehrs;
+
+            const thn =  Math.floor(t / twohrs);
+            console.log(thn)
+
+            const ts = t-thn*twohrs;
+
+            const ohn =  Math.floor(ts / onehrs);
+            console.log(ohn);
+
+            const tms = ts-ohn*onehrs;
+
+            const fiftyhn =  Math.floor(tms / fiftyrs);
+            console.log(fiftyhn)
+
+            const s = tms-fiftyhn*fiftyrs;
+
+            const twentyhn =  Math.floor(s / twentyrs);
+            console.log(twentyhn)
+
+            const st = s-twentyhn*twentyrs;
+
+            const tenn =  Math.floor(st / tenrs);
+            console.log(tenn)
+
+            const tst = st-tenn*tenrs;
+
+            const fiven =  Math.floor(tst / fivers);
+            console.log(fiven)
+
+            const tt = tst-fiven*fivers;
+
+            const twon =  Math.floor(tt / twors);
+            console.log(twon)
+
+            const tmt = tt-twon*twors;
+
+            const onen =  Math.floor(tmt / oners);
+            console.log(onen)
+
+      //  ........time checker......
+            const hour = 3600 ;
+            const minute = 60 ;
+            const sec = 1 ;
+            const totalsec = 8888;
+
+            const h =  Math.floor( totalsec/hour);
+            console.log(h);
+
+            let sSec = totalsec-h*hour;
+
+            const m = Math.floor(sSec/minute);
+            console.log(m);
+
+            let sS = sSec-m*minute;
+
+            const se = sS
+            console.log(se)
+
+      // .........persentage checker.........
+            const totalmarks = 400;
+            const obtaintmarks = 299;
+            const j = 100;
+            const persentage = obtaintmarks*j/totalmarks;
+            
+            console.log(persentage)
+
+      //.............step count........
+            const totalSteps = 7;
+            const rise = 3 ;
+            const fall = 1;
+            let cs = 0;
+            let step =1;
+            if (rise > fall){
+              for( ; true;step+1){
+                cs=cs+rise;
+                if (cs >= totalSteps){
+                  break
+                }
+                cs = cs - fall;
+              }
+              console.log(step)
+            } else{
+              console.log(inf)
+            }
+      // ...........samantar shreni......
+
+     </script>
+
+</body>
+</html>

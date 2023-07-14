@@ -1,0 +1,270 @@
+*{
+    margin: 0;
+    padding: 0;
+    }
+.header{
+    display: flex;
+    
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    background-color: white;
+}
+.a{
+    width: 28%;
+    height: 50px;
+    display: flex;
+    
+}
+.svgclass{
+    padding-top: 13px;
+    
+}
+.youtubelogo{
+    height: 30px;
+    padding-top: 7px;
+    padding-left: 10px;
+}
+.b{
+    width: 50%;
+    height: 50px;
+    display: flex;
+    padding-top: 5px;
+}
+.searchbox{
+    width:80% ;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 15px 0px 0px 15px;
+    border: 1px solid;
+    padding-left: 15px;
+    border-color: rgb(212, 210, 210);
+    
+}
+.btn{
+    height: 40px;
+    width: 50px;
+    border-radius: 0px 15px 15px 0px;
+    border: 1px solid;
+    border-color: rgb(212, 210, 210);
+}
+.mic{
+    padding-left: 15px;
+}
+.c{
+    width: 22%;
+    height: 50px;
+}
+.signin{
+    float: right;
+    height: 50px;
+    width: 50%;
+    display: flex;
+    gap: 20px;
+}
+.love1{ 
+    padding-top: 12px;
+
+}
+.love{
+    padding-top: 5px;
+}
+.loginbutton{
+    width: 90px;
+    height: 40px;
+    border-radius: 30px;
+    background-color: white;
+    display: flex;
+    gap: 8px;
+    
+}
+.you{
+    padding-top: 5px;
+    padding-left: 6px;
+}
+.lucky{
+  padding-top: 10px;
+}
+.playground{
+    float: left;
+    width: 67%;
+    height: auto;
+    margin-top: 50px;
+        
+}
+.video{
+    width: 94%;
+    height: 490px;
+    margin-top: 20px;
+    margin-left: 3%;
+}
+.titleandlike{
+    width: 94%;
+    height: 110px;
+    margin-left: 3%;
+}
+.title{
+    width: 100%;
+    height: 30px;
+    margin-top: 10px;
+}
+.name{
+    font-size: 20px;
+}
+.logotoshare{
+    width: 100%;
+    height: 50px;
+    display: flex;
+}
+.sss1{
+    width: 57%;
+    height: 50;
+    display: flex;
+    gap: 15px;
+    
+}
+.logo{
+    width: auto;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+.channellogo{
+    height: 40px;
+    width: 40px;
+    border-radius: 40px;
+  }
+.channelname{
+    width: auto;
+    height: 50px;
+    
+}
+.count{
+    font-size: 14px;
+    font-family: "Roboto","Arial",sans-serif;
+    margin-top: 3px;
+    color: rgb(110, 110, 110);
+}
+.cn{
+    font-family: "Roboto","Arial",sans-serif;
+    margin-top: 5px;
+}
+.subscribebtn{
+    width: auto;
+    height: 50px;
+    align-items: center;
+    display: flex;
+}
+.btns{
+    background-color: black;
+    height: 35px;
+    width: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 18px;
+    color: white;
+}
+.btns:hover{
+    background-color: rgb(31, 30, 30);
+    
+}
+.sss{
+    width: 43%;
+    height: 50;
+    display: flex;
+    gap: 15px;
+}
+.btnclass1{
+    width: auto;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+.btnlike{
+    width: 65px;
+    height: 35px;
+    border: none;
+    border-radius: 17px 0px 0px 17px;
+    align-items: center;
+    display: flex;
+    padding-left: 10px;
+}
+.btnlike:hover{
+    background-color: rgb(221, 219, 219);
+    
+}
+.btnunlike{
+    width: 40;
+    height: 35px;
+    border: none;
+    border-left: solid 1px;
+    border-radius: 0px 17px 17px 0px;
+    align-items: center;
+    display: flex;
+    padding-left: 10px;
+}
+.btnunlike:hover{
+    background-color: rgb(221, 219, 219);
+    
+}
+.btnclass{
+    width: auto;
+    height: 50px;
+    display: flex;
+    align-items: center;
+
+}
+.btnc{
+    height:35px;
+    width: auto;
+    align-items: center;
+    display: flex;
+    padding-left: 12px;
+    padding-right: 12px;
+    border-radius: 18px;
+    border: none;
+    gap: 5px;
+}
+.btnc:hover{
+    background-color: rgb(221, 219, 219);
+    
+}
+.videocard{
+    float: right;
+    width: 33%;
+    height: auto;
+    margin-top: 50px;
+}
+.mc{
+    width: 100%;
+    height: 100px;
+    margin-top: 20px;
+    display: flex;
+    gap: 2%;
+}
+.vimg{
+    width: 40%;
+    height: 100px;
+}
+.imgsize{
+    width: 100%;
+    height: 100px;
+    border-radius: 12px;
+}
+.vtitle{
+    width: 58%;
+    height: 100px;
+    
+}
+.count6{
+    font-size: 12px;
+    font-family: "Roboto","Arial",sans-serif;
+    margin-top: 8px;
+    color: rgb(110, 110, 110);
+}
+.count7{
+    font-size: 12px;
+    margin-top: 4px;
+    font-family: "Roboto","Arial",sans-serif;
+    color: rgb(110, 110, 110);
+}
